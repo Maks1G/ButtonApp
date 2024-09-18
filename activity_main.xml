@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:rotationX="-360">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liczba kliknięć: 0" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zresetuj"
+        android:backgroundTint="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/buttonDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Kliknij"
+        android:textSize="18sp" />
+
+</LinearLayout>
